@@ -1,0 +1,122 @@
+{
+  "m1": {
+    "1": {
+      "name": "Renes—Gare",
+      "transfer": []
+    },
+    "2": {
+      "name": "Epenex",
+      "transfer": []
+    },
+    "3": {
+      "name": "Crochy",
+      "transfer": []
+    },
+    "4": {
+      "name": "Cerisaie",
+      "transfer": []
+    },
+    "5": {
+      "name": "Bassenges",
+      "transfer": []
+    },
+    "6": {
+      "name": "EPFL",
+      "transfer": []
+    },
+    "7": {
+      "name": "UNL—Sorge",
+      "transfer": []
+    },
+    "8": {
+      "name": "Mouline",
+      "transfer": []
+    },
+    "9": {
+      "name": "UNL—Chemberonne",
+      "transfer": []
+    },
+    "10": {
+      "name": "Bourdonnette",
+      "transfer": []
+    },
+    "11": {
+      "name": "Melley",
+      "transfer": []
+    },
+    "12": {
+      "name": "Provence",
+      "transfer": []
+    },
+    "13": {
+      "name": "Montelly",
+      "transfer": []
+    },
+    "14": {
+      "name": "Vigie",
+      "transfer": []
+    },
+    "15": {
+      "name": "Lausanne—Flon",
+      "transfer": []
+    }
+  },
+  "m2": {
+    "1": {
+      "name": "Croisettes",
+      "transfer": []
+    },
+    "2": {
+      "name": "Vennes",
+      "transfer": []
+    },
+    "3": {
+      "name": "Fourmi",
+      "transfer": []
+    },
+    "4": {
+      "name": "Sallaz",
+      "transfer": []
+    },
+    "5": {
+      "name": "CHUV",
+      "transfer": []
+    },
+    "6": {
+      "name": "Ours",
+      "transfer": []
+    },
+    "7": {
+      "name": "Riponne M.Bejart",
+      "transfer": []
+    },
+    "8": {
+      "name": "Bessieres",
+      "transfer": []
+    },
+    "9": {
+      "name": "Lausanne—Flon",
+      "transfer": []
+    },
+    "10": {
+      "name": "Lausanne Gare CFF",
+      "transfer": []
+    },
+    "11": {
+      "name": "Grancy",
+      "transfer": []
+    },
+    "12": {
+      "name": "Delices",
+      "transfer": []
+    },
+    "13": {
+      "name": "Jourdils",
+      "transfer": []
+    },
+    "14": {
+      "name": "Ouchy—Olympique",
+      "transfer": []
+    }
+  }
+}

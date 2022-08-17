@@ -1,0 +1,102 @@
+Stage 5/6: The fastest route
+Description
+Good job: now the passengers can easily find their way around the metro! However, helping them plan their travel time requires some more effort. We did not take into account one important detail: the distances between the stations vary, which means that the travel time varies as well. We need to find not just the shortest path, but the fastest one. People who are late for work will thank you! You have all the necessary information about the distance between the stations: pay attention to the example!
+
+The kind of graph we need here is called a weighted graph because its edges have "weight", or, in other words, value. To solve this specific problem, the algorithm from the previous stage cannot be used. Dijkstra's algorithm, on the other hand, is a great choice for this task! It is also a common algorithm for finding the shortest path, but it takes into account the weight of the edges. To get a better understanding, you can take a look at a visualization of the algorithm.
+
+Objective
+Add the ability to find the fastest way using the command /fastest-route "[line 1]" "[station 1]" "[line 2]" "[station 2]".
+The program should print the estimate total travel time.
+Upgrade the add station command by adding the travel time.
+Take it into account that transferring from one line to another takes 5 minutes.
+For your updated metro map, you may use the real stations of Prague Metro. Don't forget to get the file with the station names!
+
+For the /route command, transactions between lines should not be considered as moving around the nodes of the graph.
+JSON file with stations will have the following format:
+
+"1": {
+  "name": "Bishops-road",
+  "transfer": [],
+  "time": 2
+},
+"2": {
+  "name": "Edgver road",
+  "transfer": [],
+  "time": 3
+}
+
+...
+From the example above, it takes 2 units to take from the first station to the second one. It also takes 2 units to take from the second station to the first one.
+
+Example
+The greater-than symbol followed by a space > represents the user input. Note that it's not part of the input.
+
+File example
+
+{
+    "Metro-Railway": {
+        "3": {
+            "name": "Baker street",
+            "transfer": [{
+                "line": "Hammersmith-and-City",
+                "station": "Baker street"
+            }],
+            "time": 1
+        },
+        "1": {
+            "name": "Bishops-road",
+            "transfer": [],
+            "time": 2
+        },
+        "2": {
+            "name": "Edgver road",
+            "transfer": [],
+            "time": 3
+        }
+    },
+    "Hammersmith-and-City": {
+        "2": {
+            "name": "Westbourne-park",
+            "transfer": [],
+            "time": 3
+        },
+        "1": {
+            "name": "Hammersmith",
+            "transfer": [],
+            "time": 1
+        },
+        "3": {
+            "name": "Baker street",
+            "transfer": [{
+                "line": "Metro-Railway",
+                "station": "Baker street"
+            }],
+            "time": 3
+        }
+    }
+}
+Example 1
+
+> java metro.Main test-file.json
+> /fastest-route Hammersmith-and-City "Baker street" Hammersmith-and-City Hammersmith
+Baker street
+Westbourne-park
+Hammersmith
+Total: 4 minutes in the way
+> /exit
+Example 2
+
+> java metro.Main test-file.json
+> add Hammersmith-and-City New-Station 4
+> /exit
+Example 3
+
+> java metro.Main test-file.json
+> /remove Hammersmith-and-City Hammersmith
+> /output Hammersmith-and-City
+depot
+Westbourne-park
+Baker street - Baker street (Metro-Railway line)
+New-Station
+depot
+> /exit

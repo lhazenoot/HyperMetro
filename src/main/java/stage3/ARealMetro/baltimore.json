@@ -1,0 +1,60 @@
+{
+  "SubwayLink": {
+    "1": {
+      "name": "Owings Mills",
+      "transfer": []
+    },
+    "2": {
+      "name": "Old Court",
+      "transfer": []
+    },
+    "3": {
+      "name": "Milford Mill",
+      "transfer": []
+    },
+    "4": {
+      "name": "Reiserstown Plaza",
+      "transfer": []
+    },
+    "5": {
+      "name": "Rogers Avenue",
+      "transfer": []
+    },
+    "6": {
+      "name": "West Cold Spring",
+      "transfer": []
+    },
+    "7": {
+      "name": "Mondawmin",
+      "transfer": []
+    },
+    "8": {
+      "name": "Penn North",
+      "transfer": []
+    },
+    "9": {
+      "name": "Uptown",
+      "transfer": []
+    },
+    "10": {
+      "name": "State Center",
+      "transfer": []
+    },
+    "11": {
+      "name": "Lexington Market",
+      "transfer": []
+    },
+    "12": {
+      "name": "Charles Center",
+      "transfer": []
+    },
+    "13": {
+      "name": "Shot Tower/Market Place",
+      "transfer": []
+    },
+    "14": {
+      "name": "Johns Hopkins Hospital",
+      "transfer": []
+    }
+  }
+}
