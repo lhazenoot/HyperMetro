@@ -9,24 +9,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-// /output "Linka A"
-
-// /route "Linka A" "Petriny" "Linka A" "Flora"
-// /route "Linka C" Haje "Linka C" Pankrac
-// /route "Linka A" "Mustek" "Linka B" "Mustek"
-// /route "Linka C" "Vysehrad" "Linka B" "Namesti Republiky"
-
-// /connect "Linka C" "I.P.Pavlova" "Linka A" "Petriny"
-
-// /append "Linka A" London 3
-// /add-head "Linka A" Amsterdam 5
-
-// /remove "Linka A" "Petriny"
-
-// /fastest-route "Linka A" "Borislavka" "Linka A" "Flora"
-// /fastest-route "Linka C" "Vysehrad" "Linka B" "Namesti Republiky"
-// /fastest-route "Linka A" "Mustek" "Linka A" "Petriny"
-
 public class Main {
     public static void main(String[] args) throws IOException {
         String input = "./src/main/java/stage5/TheFastestRoute/prague_w_time.json";
