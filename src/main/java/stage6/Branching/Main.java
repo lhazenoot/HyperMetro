@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-// /output "Bakerloo line"
 // /remove "Victoria line" "Finsbury Park"
 // /output "Victoria line"
 
